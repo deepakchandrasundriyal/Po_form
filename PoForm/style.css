@@ -1,0 +1,184 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: linear-gradient(to right, #e6e6e6, #828282);
+
+}
+
+nav {
+    font-family: "Emblema One", system-ui;
+    font-weight: 700;
+    font-size: 35px;
+    background-color: rgb(41, 9, 147);
+    width: 100%;
+    height: 15vh;
+    margin-bottom: 30px;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    align-items: center;
+    display: flex;
+}
+
+footer {
+    font-family: "Emblema One", system-ui;
+    font-weight: 700;
+    font-size: 35px;
+    background-color: rgb(41, 9, 147);
+    width: 100%;
+    height: 15vh;
+    margin-top: 30px;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    align-items: center;
+    display: flex;
+}
+
+.Billing_form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.fa-file-invoice {
+    color: green;
+}
+
+.container {
+    border: 3px solid black;
+    height: auto;
+    background: white;
+    padding: 20px;
+    padding-top: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 800px;
+}
+
+.top_title {
+
+    color: black;
+
+}
+
+h2 {
+    font-family: "Emblema One", system-ui;
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+}
+
+h3 {
+    font-family: "Emblema One", system-ui;
+    font-weight: 700;
+    font-size: 22px;
+    padding: 10px;
+
+}
+
+.form_top {
+
+    padding: 17px;
+    display: flex;
+    width: 100%;
+    gap: 30px;
+}
+
+.form-group {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+label {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    display: flex;
+    font-size: 18px;
+    align-items: center;
+    margin-bottom: 10px;
+
+}
+
+input,
+select,
+textarea {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    width: 100%;
+    border: none;
+    background-color: rgba(239, 239, 241, 0.383);
+    border-bottom: 1px solid black;
+    padding: 10px;
+
+    border-radius: 5px;
+}
+
+button {
+    font-family: "Emblema One", system-ui;
+    font-weight: 700;
+    width: 100%;
+    padding: 10px;
+    background: rgba(0, 128, 0, 0.62);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+button:hover {
+    background: rgba(0, 128, 0, 0.745);
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+}
+
+.item {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.item input {
+    flex: 1;
+}
+
+.removeItem {
+    background: rgba(255, 0, 0, 0.476);
+    padding: 10px;
+    font-size: 14px;
+}
+
+.removeItem:hover {
+    background-color: rgba(255, 0, 0, 0.446);
+}
+
+.total input {
+    font-weight: bold;
+    background: #eee;
+    text-align: right;
+}
